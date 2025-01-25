@@ -15,8 +15,8 @@ MonoBehaviour:
   Database:
     Items:
     - Category: Menu
-      Name: 2PlayerSync
-    - Category: Menu
       Name: Main
+    - Category: Menu
+      Name: TwoPlayerSync
     - Category: None
       Name: None
