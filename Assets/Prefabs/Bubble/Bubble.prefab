@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1186780974046169890, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
+  m_Sprite: {fileID: -1674704923, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -90,15 +90,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Image: {fileID: 465083236123231815}
   m_SpriteArray:
-  - {fileID: -1186780974046169890, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
-  - {fileID: -3941434680033599948, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
-  - {fileID: -5723604339959554842, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
-  - {fileID: -93178704055255559, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
-  - {fileID: 1095942903325673231, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
-  - {fileID: -1374219128442134281, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
-  - {fileID: -5557763306149980640, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
-  - {fileID: 376691267772258511, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
-  - {fileID: 5376858972769914538, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
-  - {fileID: 7366465983763169181, guid: 96b66b7ce81d73d4fa9329e7bb297542, type: 3}
+  - {fileID: -1674704923, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
+  - {fileID: -502610439, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
+  - {fileID: 330647842, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
+  - {fileID: -2089988859, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
+  - {fileID: -2114545229, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
+  - {fileID: -838866948, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
+  - {fileID: 701045841, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
+  - {fileID: -1836523348, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
+  - {fileID: -1909735730, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
+  - {fileID: 788444810, guid: a00ccbaf1df568c4990e35690fda432c, type: 3}
   m_Speed: 0.1
   m_endtime: 5
+  m_player: {fileID: 0}

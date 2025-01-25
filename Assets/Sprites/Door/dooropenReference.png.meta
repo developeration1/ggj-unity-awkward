@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 43c89a35125b19044aea97bc87b6d3e7
+guid: 9f8c54ca6a8bcc242b2416d0268eb1d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8391223901145129271
-    second: HandL1_0
+      213: 59962055216559700
+    second: dooropenReference_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HandL1_0
+      name: dooropenReference_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 0
-        width: 786
-        height: 1205
+        x: 108
+        y: 39
+        width: 146
+        height: 277
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ce1a7d02526c8b80800000000000000
-      internalID: -8391223901145129271
+      spriteID: 4567f29eb2705d000800000000000000
+      internalID: 59962055216559700
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      HandL1_0: -8391223901145129271
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
