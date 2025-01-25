@@ -1,3 +1,4 @@
+using MoreMountains.Feedbacks;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,7 @@ public class Timer : MonoBehaviour
     [SerializeField]
     private int m_endtime = 5;
 
+    [SerializeField] private MMF_Player m_player;
 
     private int m_IndexSprite;
     private bool IsDone;
@@ -30,6 +32,9 @@ public class Timer : MonoBehaviour
     {
         if (!m_animationStart)
         {
+
+            m_player.PlayFeedbacks();
+            ((MMF_PositionShake)m_player.FeedbacksList[0]).ShakeSpeed = 15 * Time.time;
             if (m_endtime <= Time.time)
             {
                 IsDone = false;
@@ -42,6 +47,7 @@ public class Timer : MonoBehaviour
     {
         m_animationStart = true;
         yield return new WaitForSeconds(m_Speed);
+        
         if (m_IndexSprite < m_SpriteArray.Length)
         {
             m_Image.sprite = m_SpriteArray[m_IndexSprite];
