@@ -18,7 +18,7 @@
                     "name": "Submit",
                     "type": "Button",
                     "id": "7607c7b6-cd76-4816-beef-bd0341cfe950",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -532,12 +532,12 @@
                 },
                 {
                     "name": "DirectionAction",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "162dfe84-ff3d-4462-8225-309d3c8491c3",
-                    "expectedControlType": "",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -553,15 +553,70 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "45354e00-0ba3-4ce1-b9f1-4e7a379285d8",
-                    "path": "",
+                    "name": "1D Axis Joystick",
+                    "id": "7d1b1462-1c01-49d1-b013-86f4d4ae7d7a",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DirectionAction",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ec8ca543-6679-42c9-94be-64e590167e56",
+                    "path": "<Gamepad>/leftStick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "DirectionAction",
                     "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "fcc89d46-f90d-4b60-a6f3-336267240bc5",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DirectionAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis D-Pad",
+                    "id": "92c10da6-f59b-4c74-9a7c-96c2224d6e8f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DirectionAction",
+                    "isComposite": true,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "32180e24-df77-4801-8b78-845448b6deec",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DirectionAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "c718eb7b-9729-438f-8068-ee8d1d93f643",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DirectionAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
