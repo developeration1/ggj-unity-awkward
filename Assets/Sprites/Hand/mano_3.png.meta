@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b5d0ea695650383458f5431862a10081
+guid: 2989a301d76a56f47907291e116d09d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6214636957547092418
-    second: puerta_2_cerrada_0
+      213: 8637064850988602903
+    second: mano_3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: puerta_2_cerrada_0
+      name: mano_3_0
       rect:
         serializedVersion: 2
-        x: 151
-        y: 184
-        width: 775
-        height: 1366
+        x: 264
+        y: 0
+        width: 632
+        height: 1130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c9db96e263de3650800000000000000
-      internalID: 6214636957547092418
+      spriteID: 716103988b40dd770800000000000000
+      internalID: 8637064850988602903
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      puerta_2_cerrada_0: 6214636957547092418
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
