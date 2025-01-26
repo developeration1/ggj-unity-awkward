@@ -1894,7 +1894,7 @@ MonoBehaviour:
   m_text: 1 Player
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5869e889303392549ae702fae24366cf, type: 2}
-  m_sharedMaterial: {fileID: -8757170912295811129, guid: 5869e889303392549ae702fae24366cf, type: 2}
+  m_sharedMaterial: {fileID: -7345492209662577166, guid: 5869e889303392549ae702fae24366cf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4670,7 +4670,7 @@ MonoBehaviour:
   m_text: Then press the South Button for 3 seconds to start.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5869e889303392549ae702fae24366cf, type: 2}
-  m_sharedMaterial: {fileID: -8757170912295811129, guid: 5869e889303392549ae702fae24366cf, type: 2}
+  m_sharedMaterial: {fileID: -7345492209662577166, guid: 5869e889303392549ae702fae24366cf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6761,7 +6761,7 @@ MonoBehaviour:
   m_text: 2 Players
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5869e889303392549ae702fae24366cf, type: 2}
-  m_sharedMaterial: {fileID: -8757170912295811129, guid: 5869e889303392549ae702fae24366cf, type: 2}
+  m_sharedMaterial: {fileID: -7345492209662577166, guid: 5869e889303392549ae702fae24366cf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6986,7 +6986,7 @@ MonoBehaviour:
   m_text: Press any button to enter.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5869e889303392549ae702fae24366cf, type: 2}
-  m_sharedMaterial: {fileID: -8757170912295811129, guid: 5869e889303392549ae702fae24366cf, type: 2}
+  m_sharedMaterial: {fileID: -7345492209662577166, guid: 5869e889303392549ae702fae24366cf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
