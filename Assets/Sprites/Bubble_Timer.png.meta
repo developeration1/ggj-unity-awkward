@@ -1,0 +1,632 @@
+fileFormatVersion: 2
+guid: a00ccbaf1df568c4990e35690fda432c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6911912226165710974
+    second: Bubble_Timer_0
+  - first:
+      213: -5114255243581111678
+    second: Bubble_Timer_1
+  - first:
+      213: 6095446098907949554
+    second: Bubble_Timer_2
+  - first:
+      213: 3570575690644405476
+    second: Bubble_Timer_3
+  - first:
+      213: -2710290332509508184
+    second: Bubble_Timer_4
+  - first:
+      213: 8088510314957883078
+    second: Bubble_Timer_5
+  - first:
+      213: -5960865400469870902
+    second: Bubble_Timer_6
+  - first:
+      213: 8107564580890310669
+    second: Bubble_Timer_7
+  - first:
+      213: 2137164423144959960
+    second: Bubble_Timer_8
+  - first:
+      213: 7227848404583133764
+    second: Bubble_Timer_9
+  - first:
+      213: -8900827745067918385
+    second: Bubble_Timer_10
+  - first:
+      213: -4383599299881768414
+    second: Bubble_Timer_11
+  - first:
+      213: 8175545379127487727
+    second: Bubble_Timer_12
+  - first:
+      213: 3435711141019679488
+    second: Bubble_Timer_13
+  - first:
+      213: 1485333115589717402
+    second: Bubble_Timer_14
+  - first:
+      213: -803497128859169289
+    second: Bubble_Timer_15
+  - first:
+      213: -3814235734639239386
+    second: Bubble_Timer_16
+  - first:
+      213: -9030780372304604639
+    second: Bubble_Timer_17
+  - first:
+      213: 6529805368232205919
+    second: Bubble_Timer_18
+  - first:
+      213: -3770322610133203660
+    second: Bubble_Timer_19
+  - first:
+      213: 2755465741230290336
+    second: Bubble_Timer_20
+  - first:
+      213: 5872269033737064640
+    second: Bubble_Timer_21
+  - first:
+      213: -6811993132103609794
+    second: Bubble_Timer_22
+  - first:
+      213: 4094363960894488048
+    second: Bubble_Timer_23
+  - first:
+      213: -7281745807406629196
+    second: Bubble_Timer_24
+  - first:
+      213: 2132133611718617659
+    second: Bubble_Timer_25
+  - first:
+      213: 3311462515272282910
+    second: Bubble_Timer_26
+  - first:
+      213: 5267985484567184913
+    second: Bubble_Timer_27
+  - first:
+      213: -5102138462295173684
+    second: Bubble_Timer_28
+  - first:
+      213: 8411979014250124360
+    second: Bubble_Timer_29
+  - first:
+      213: -3397937909111735131
+    second: Bubble_Timer_30
+  - first:
+      213: -4186320953502772567
+    second: Bubble_Timer_31
+  - first:
+      213: 4166601394400216317
+    second: Bubble_Timer_32
+  - first:
+      213: 5543848463642413211
+    second: Bubble_Timer_33
+  - first:
+      213: 2294372811109278340
+    second: Bubble_Timer_34
+  - first:
+      213: 2700557994910763371
+    second: Bubble_Timer_35
+  - first:
+      213: 6402993507087123410
+    second: Bubble_Timer_36
+  - first:
+      213: -3875593592144256867
+    second: Bubble_Timer_37
+  - first:
+      213: 2323336837487645027
+    second: Bubble_Timer_38
+  - first:
+      213: -2632649045278618051
+    second: Bubble_Timer_39
+  - first:
+      213: 3384209028137127199
+    second: Bubble_Timer_40
+  - first:
+      213: 3467535340423475581
+    second: Bubble_Timer_41
+  - first:
+      213: 6163732758767587898
+    second: Bubble_Timer_42
+  - first:
+      213: -3161781432976317292
+    second: Bubble_Timer_43
+  - first:
+      213: 4619601309362203492
+    second: Bubble_Timer_44
+  - first:
+      213: 7858956385588458397
+    second: Bubble_Timer_45
+  - first:
+      213: 8081246433028189753
+    second: Bubble_Timer_46
+  - first:
+      213: -4682571350228489415
+    second: Bubble_Timer_47
+  - first:
+      213: 6077625671632663096
+    second: Bubble_Timer_48
+  - first:
+      213: -1105786806272641148
+    second: Bubble_Timer_49
+  - first:
+      213: -2417133693018626234
+    second: Bubble_Timer_50
+  - first:
+      213: -5947328398695652727
+    second: Bubble_Timer_51
+  - first:
+      213: 8183399768322851403
+    second: Bubble_Timer_52
+  - first:
+      213: -8757404345225914158
+    second: Bubble_Timer_53
+  - first:
+      213: 1913757637954407031
+    second: Bubble_Timer_54
+  - first:
+      213: 1781017998001854881
+    second: Bubble_Timer_55
+  - first:
+      213: 164100129655934623
+    second: Bubble_Timer_56
+  - first:
+      213: 1860163938784366250
+    second: Bubble_Timer_57
+  - first:
+      213: 6318000806988880928
+    second: Bubble_Timer_58
+  - first:
+      213: -9199116991965363744
+    second: Bubble_Timer_59
+  - first:
+      213: -1834311306496784704
+    second: Bubble_Timer_60
+  - first:
+      213: -9046280204928641797
+    second: Bubble_Timer_61
+  - first:
+      213: -8584329779703810805
+    second: Bubble_Timer_62
+  - first:
+      213: -6438876798576467031
+    second: Bubble_Timer_63
+  - first:
+      213: 8298751327477075227
+    second: Bubble_Timer_64
+  - first:
+      213: -4161670342201204586
+    second: Bubble_Timer_65
+  - first:
+      213: -9040055383011239740
+    second: Bubble_Timer_66
+  - first:
+      213: -2721500595269825477
+    second: Bubble_Timer_67
+  - first:
+      213: -3602625829788553046
+    second: Bubble_Timer_68
+  - first:
+      213: -8401410739001869010
+    second: Bubble_Timer_69
+  - first:
+      213: 4462008894466661668
+    second: Bubble_Timer_70
+  - first:
+      213: -8365200747486083575
+    second: Bubble_Timer_71
+  - first:
+      213: -4483501076739616503
+    second: Bubble_Timer_72
+  - first:
+      213: -1264443687250292599
+    second: Bubble_Timer_73
+  - first:
+      213: -8977605639183697676
+    second: Bubble_Timer_74
+  - first:
+      213: -7489636379749096304
+    second: Bubble_Timer_75
+  - first:
+      213: 6440440388581739548
+    second: Bubble_Timer_76
+  - first:
+      213: -8423572383236650021
+    second: Bubble_Timer_77
+  - first:
+      213: 884074583753360461
+    second: Bubble_Timer_78
+  - first:
+      213: -1012718364295780068
+    second: Bubble_Timer_79
+  - first:
+      213: 6974988641537260775
+    second: Bubble_Timer_80
+  - first:
+      213: -8996356281927181897
+    second: Bubble_Timer_81
+  - first:
+      213: -2802538236746703367
+    second: Bubble_Timer_82
+  - first:
+      213: 3231596889633700550
+    second: Bubble_Timer_83
+  - first:
+      213: -2987755020173397530
+    second: Bubble_Timer_84
+  - first:
+      213: -4079668484541226420
+    second: Bubble_Timer_85
+  - first:
+      213: -6124638535721006684
+    second: Bubble_Timer_86
+  - first:
+      213: -3946621903554473195
+    second: Bubble_Timer_87
+  - first:
+      213: -2219695295614280033
+    second: Bubble_Timer_88
+  - first:
+      213: -3681765578243972695
+    second: Bubble_Timer_89
+  - first:
+      213: -6087676662315209375
+    second: Bubble_Timer_90
+  - first:
+      213: -7728185086586901615
+    second: Bubble_Timer_91
+  - first:
+      213: -7761507172948757242
+    second: Bubble_Timer_92
+  - first:
+      213: -6046084662919755359
+    second: Bubble_Timer_93
+  - first:
+      213: -5248854799235831904
+    second: Bubble_Timer_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bubble_Timer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc533e650805ea4d8961c71b68d7c05
+      internalID: -1674704923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Timer_1
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1356
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc352eccfdbacb4781f9f6901857dcb
+      internalID: -502610439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Timer_2
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 1356
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0e4ae20e6b6844691ad96bf26924ea
+      internalID: 330647842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Timer_3
+      rect:
+        serializedVersion: 2
+        x: 4209
+        y: 1356
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2b3caca58cf7b438f9459070e5d139
+      internalID: -2089988859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Timer_4
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 1356
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec39b7935d2fce4c8bfd7d72e5ad137
+      internalID: -2114545229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Timer_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c449de7a95e254f4382f059b62c1b7e2
+      internalID: -838866948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Timer_6
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 0
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8bdd0d0c7e00a479c441965c24e319
+      internalID: 701045841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Timer_7
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 0
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973ace09a9f40d144a7c910070c24934
+      internalID: -1836523348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Timer_8
+      rect:
+        serializedVersion: 2
+        x: 4209
+        y: 0
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f399f0fb19f48304e8f2d460a6006cac
+      internalID: -1909735730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Timer_9
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 0
+        width: 1403
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575d8daefbcaa5a4290649cbe18d03f9
+      internalID: 788444810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 903a7f9f24cef1e4583b35579ed26de7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bubble_Timer_0: -1674704923
+      Bubble_Timer_1: -502610439
+      Bubble_Timer_2: 330647842
+      Bubble_Timer_3: -2089988859
+      Bubble_Timer_4: -2114545229
+      Bubble_Timer_5: -838866948
+      Bubble_Timer_6: 701045841
+      Bubble_Timer_7: -1836523348
+      Bubble_Timer_8: -1909735730
+      Bubble_Timer_9: 788444810
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
