@@ -12,6 +12,8 @@ public class HandScript : MonoBehaviour
     private PlayerInputManager playerImput;
     [SerializeField]
     private Animator otherHandAnimator;
+    [SerializeField]
+    private EventControler2Players message;
 
     private Animator myAnimator;
 
@@ -48,16 +50,33 @@ public class HandScript : MonoBehaviour
         m_Image.sprite = m_SpriteArray[m_IndexSprite];
     }
 
+
     public void End()
     {
         if (otherHandAnimator.GetBool("IsFist") && myAnimator.GetBool("IsFist")) {
             myAnimator.SetBool("Match", true);
+            if (message != null)
+            {
+                message.winHand();
+            }
         } else if (!otherHandAnimator.GetBool("IsFist") && myAnimator.GetBool("IsFist")) {
             myAnimator.SetBool("Match", false);
+            if (message != null)
+            {
+                message.loseHand();
+            }
         } else if (otherHandAnimator.GetBool("IsFist") && !myAnimator.GetBool("IsFist")) {
             myAnimator.SetBool("Match", false);
+            if (message != null)
+            {
+                message.loseHand();
+            }
         } else {
             myAnimator.SetBool("Match", true);
+            if (message != null)
+            {
+                message.winHand();
+            }
         }
 
         myAnimator.SetBool("Ended", true);
