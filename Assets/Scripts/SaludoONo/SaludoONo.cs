@@ -1,12 +1,20 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using MoreMountains.Feedbacks;
 
 public class SaludoONo : MonoBehaviour
 {
     private Animator animator;
     [SerializeField]
     private Animator animatorFromRandomGuy;
+
+    [SerializeField]
+    private GameObject m_message;
+    [SerializeField]
+    private GameObject m_messageFail;
+    [SerializeField]
+    private MMF_Player m_player;
 
     void Awake()
     {
@@ -37,8 +45,12 @@ public class SaludoONo : MonoBehaviour
     public void End()
     {
         if (!animatorFromRandomGuy.GetBool("Wave") && animator.GetBool("Pressed")) {
+            m_message.SetActive(true);
+            m_player.PlayFeedbacks();
             animator.SetBool("Win", true);
         } else {
+            m_messageFail.SetActive(true);
+            m_player.PlayFeedbacks();
             animator.SetBool("Lost", true);
         }
 
