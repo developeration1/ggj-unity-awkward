@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5fe0a3e40bdee4a86a7271ffaa0d585f
+guid: d8ae3cee559d8f34fac25bff39234a3f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7292588154584874984
-    second: 462-4629352_5-pesos-png-coin_0
+      213: 5986244224761071404
+    second: 5 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,56 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 462-4629352_5-pesos-png-coin_0
+      name: 5 1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 602
-        height: 602
+        x: 138
+        y: 80
+        width: 930
+        height: 1001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8104fb016b58bca90800000000000000
-      internalID: -7292588154584874984
+      spriteID: c270e9be769631350800000000000000
+      internalID: 5986244224761071404
       vertices: []
       indices: 
       edges: []
@@ -174,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      462-4629352_5-pesos-png-coin_0: -7292588154584874984
+      5 1_0: 5986244224761071404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
