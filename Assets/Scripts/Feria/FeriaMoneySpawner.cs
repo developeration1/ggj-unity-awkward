@@ -78,7 +78,11 @@ public class FeriaMoneySpawner : MonoBehaviour
                 }
             }
 
-            RandomMoneySpawner(coinPrefab);
+            if (coin.Key == 1)
+            {
+                RandomMoneySpawner(coinPrefab);
+            }
+
             m_amount %= denomination;
         }
     }
@@ -142,6 +146,11 @@ public class FeriaMoneySpawner : MonoBehaviour
     }
 
     private void Despawn(InputAction.CallbackContext ctx)
+    {
+        Destroy(gameObject);
+    }
+
+    public void DestroyOnReturn()
     {
         Destroy(gameObject);
     }
