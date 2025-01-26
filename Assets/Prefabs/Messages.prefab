@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 14.9301, y: 0}
+  m_SizeDelta: {x: 112, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3946455208468610940
 CanvasRenderer:
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7072585630640041823, guid: f28b91985909deb47a0ce093974cc4ae, type: 3}
+  m_Sprite: {fileID: 8220912310155506154, guid: d22f60b7b9c7af74bb26366bfa267581, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -194,8 +194,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5d49f499b4e2c2d41bafb105fccb9b58, type: 3}
-  m_Resource: {fileID: 8300000, guid: 5d49f499b4e2c2d41bafb105fccb9b58, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e81d656174a7b294f804fc6939496895, type: 3}
+  m_Resource: {fileID: 8300000, guid: e81d656174a7b294f804fc6939496895, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -860,7 +860,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 112, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &959033409866729940
 CanvasRenderer:
@@ -890,7 +890,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2238734375793391875, guid: 822ec0ae0f79fcb4da1f95df2be4f477, type: 3}
+  m_Sprite: {fileID: 6972879347517916877, guid: 4991b74c33b9eb44c89fe960a5b0c561, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

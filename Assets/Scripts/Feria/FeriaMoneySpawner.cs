@@ -25,6 +25,7 @@ public class FeriaMoneySpawner : MonoBehaviour
 
     private const int MAX_ATTEMPS_TO_FIND_POSITION = 3;
 
+    private bool m_moneyFlag = false;
 
     void Start()
     {
@@ -142,6 +143,7 @@ public class FeriaMoneySpawner : MonoBehaviour
             Image coinSprite = spawnedCoin.GetComponent<Image>();
 
             coinSprite.color = Color.red;
+            m_moneyFlag = true;
         }
     }
 
@@ -153,6 +155,10 @@ public class FeriaMoneySpawner : MonoBehaviour
     public void DestroyOnReturn()
     {
         Destroy(gameObject);
+    }
+    public bool isMoreMoney()
+    {
+        return m_moneyFlag;
     }
 }
 
