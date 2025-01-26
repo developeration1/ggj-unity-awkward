@@ -15,6 +15,7 @@ public class Joystick : MonoBehaviour
     [SerializeField] private Image joystickRight;
 
     private Coroutine gameStartCoroutine;
+    private bool ButtonIsPressed => buttonPressed.enabled;
 
     private void Start()
     {
@@ -34,6 +35,25 @@ public class Joystick : MonoBehaviour
     {
         button.enabled = false;
         buttonPressed.enabled = true;
+        if (PlayerInputManager.instance.maxPlayerCount > 1)
+        {
+            if (GameManager.Instance.PlayerCount > 1)
+            {
+                Joystick[] joysticks = FindObjectsByType<Joystick>(FindObjectsSortMode.None);
+                bool arePressed = true;
+                foreach (Joystick joystick in joysticks)
+                {
+                    if (!joystick.ButtonIsPressed)
+                    {
+                        arePressed = false;
+                    }
+                }
+                if (arePressed)
+                    gameStartCoroutine = StartCoroutine("GameStartRoutine");
+            }
+
+            return;
+        }
         gameStartCoroutine = StartCoroutine("GameStartRoutine");
     }
 
@@ -41,7 +61,12 @@ public class Joystick : MonoBehaviour
     {
         button.enabled = true;
         buttonPressed.enabled = false;
-        StopCoroutine(gameStartCoroutine);
+        if (gameStartCoroutine != null)
+        {
+            StopCoroutine(gameStartCoroutine);
+            gameStartCoroutine = null;
+        }
+
     }
 
     public void JoystickNeutral(InputAction.CallbackContext ctx)
@@ -70,6 +95,7 @@ public class Joystick : MonoBehaviour
     private IEnumerator GameStartRoutine()
     {
         yield return new WaitForSeconds(3);
-        Doozy.Runtime.Signals.Signal.Send(Doozy.Runtime.Signals.SignalStream.Get("Management", "GameStart"));
+        bool a = Doozy.Runtime.Signals.Signal.Send(Doozy.Runtime.Signals.SignalStream.Get("Management", "GameStart"), PlayerPrefs.GetInt("firstGame", 1) == 1);
+        print(a);
     }
 }

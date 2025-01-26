@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d045e0aa6612a458db015f427fbe16, type: 3}
   m_Name: Character_Otaku
   m_EditorClassIdentifier: 
+  characterName: Otaku
   profile: {fileID: 2053282920, guid: a7ba31e79d8259e43b21689040ade91c, type: 3}
   full: {fileID: 1167887662, guid: a7ba31e79d8259e43b21689040ade91c, type: 3}
   front: {fileID: 0}

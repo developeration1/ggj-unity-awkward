@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d045e0aa6612a458db015f427fbe16, type: 3}
   m_Name: Character_Hippie
   m_EditorClassIdentifier: 
+  characterName: Hippie
   profile: {fileID: -742500697, guid: 5129d739e2ccc3b41a9692976f6c7901, type: 3}
   full: {fileID: -2116493703, guid: 5129d739e2ccc3b41a9692976f6c7901, type: 3}
   front: {fileID: 0}
