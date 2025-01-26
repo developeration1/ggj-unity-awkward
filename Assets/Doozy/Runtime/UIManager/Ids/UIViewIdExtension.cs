@@ -27,6 +27,9 @@ namespace Doozy.Runtime.UIManager
         public enum Menu
         {
             Main,
+            OnePlayerCharacterSelect,
+            OnePlayerSync,
+            TwoPlayerCharacterSelect,
             TwoPlayerSync
         }    
     }

@@ -17,6 +17,12 @@ MonoBehaviour:
     - Category: Menu
       Name: Main
     - Category: Menu
+      Name: OnePlayerCharacterSelect
+    - Category: Menu
+      Name: OnePlayerSync
+    - Category: Menu
+      Name: TwoPlayerCharacterSelect
+    - Category: Menu
       Name: TwoPlayerSync
     - Category: None
       Name: None
