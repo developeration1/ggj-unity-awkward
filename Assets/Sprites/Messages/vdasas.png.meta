@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 65c9d7b9916db4efc8af4df2c0f64fb4
+guid: 4991b74c33b9eb44c89fe960a5b0c561
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7991367581458880832
-    second: 369-3691399_1999mexico10-diez-nuevos-pesos-estados-unidos-mexicanosa-10_0
+      213: 6972879347517916877
+    second: vdasas_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,56 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 369-3691399_1999mexico10-diez-nuevos-pesos-estados-unidos-mexicanosa-10_0
+      name: vdasas_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 640
-        height: 630
+        x: 52
+        y: 130
+        width: 1799
+        height: 1001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c622955685f81190800000000000000
-      internalID: -7991367581458880832
+      spriteID: dc6867a92d4a4c060800000000000000
+      internalID: 6972879347517916877
       vertices: []
       indices: 
       edges: []
@@ -173,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      369-3691399_1999mexico10-diez-nuevos-pesos-estados-unidos-mexicanosa-10_0: -7991367581458880832
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

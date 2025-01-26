@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
     private int m_endtime = 5;
 
     [SerializeField] private MMF_Player m_player;
-
+    //[SerializeField] private AudioSource m_audio;
     private int m_IndexSprite;
     private bool IsDone;
     private bool m_animationEnd = false;
@@ -37,6 +37,7 @@ public class Timer : MonoBehaviour
             ((MMF_PositionShake)m_player.FeedbacksList[0]).ShakeSpeed = 15 * Time.time;
             if (m_endtime <= Time.time)
             {
+                gameObject.GetComponent<AudioSource>().Play();
                 IsDone = false;
                 StartCoroutine(Func_PlayAnimUI());
             }
@@ -51,6 +52,7 @@ public class Timer : MonoBehaviour
     IEnumerator Func_PlayAnimUI()
     {
         m_animationStart = true;
+        
         yield return new WaitForSeconds(m_Speed);
         
         if (m_IndexSprite < m_SpriteArray.Length)
@@ -63,6 +65,7 @@ public class Timer : MonoBehaviour
         }
         else
         {
+            
             m_animationEnd = true;
         }
     }
