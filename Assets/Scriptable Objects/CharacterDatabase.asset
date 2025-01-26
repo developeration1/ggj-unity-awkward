@@ -12,4 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e556474723304a2a92dd783a4cf91d7, type: 3}
   m_Name: CharacterDatabase
   m_EditorClassIdentifier: 
-  characters: []
+  characters:
+  - characterProfile: {fileID: 11400000, guid: cdcb3d48b52439845a3758831c142f4c, type: 2}
+    isUnlocked: 1
+  - characterProfile: {fileID: 11400000, guid: 6a30a1c83dba4d84cbf1ba91613e26d5, type: 2}
+    isUnlocked: 1
+  - characterProfile: {fileID: 11400000, guid: 73edf124559448e4891614d89dd69354, type: 2}
+    isUnlocked: 1
+  - characterProfile: {fileID: 11400000, guid: db741be1e30224144bc17ac771dd73fb, type: 2}
+    isUnlocked: 0
+  - characterProfile: {fileID: 11400000, guid: 62642ea4c52be444b977a635dae1bbd3, type: 2}
+    isUnlocked: 0
+  - characterProfile: {fileID: 11400000, guid: b5c78073056116847b58ce6d1681345c, type: 2}
+    isUnlocked: 0
