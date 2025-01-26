@@ -19,7 +19,6 @@ public class Spawner : MonoBehaviour
             InputActionMap playerMap = playerInput.actions.FindActionMap("Player");
             playerMap.FindAction("BasicAction").performed += tp.TurnOn;
             playerMap.FindAction("BasicAction").canceled += tp.TurnOff;
-
         });
     }
 }
