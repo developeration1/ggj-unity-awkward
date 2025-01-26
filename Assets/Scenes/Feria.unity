@@ -454,6 +454,7 @@ MonoBehaviour:
   m_messageFail: {fileID: 1593964343}
   m_player: {fileID: 1554035641}
   m_feriaSpawner: {fileID: 1260495682}
+  sc: {fileID: 2055690134}
 --- !u!224 &1047251854 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4488681819068661620, guid: 2f4f5b8b1cfbb384ba5e81ccfbf91bdb, type: 3}
@@ -1545,6 +1546,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8284297648729255239, guid: 2f4f5b8b1cfbb384ba5e81ccfbf91bdb, type: 3}
+      propertyPath: secondsToWait
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8474730138212878179, guid: 2f4f5b8b1cfbb384ba5e81ccfbf91bdb, type: 3}
       propertyPath: m_Name
       value: Messages
@@ -1554,6 +1559,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f4f5b8b1cfbb384ba5e81ccfbf91bdb, type: 3}
+--- !u!114 &2055690134 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8284297648729255239, guid: 2f4f5b8b1cfbb384ba5e81ccfbf91bdb, type: 3}
+  m_PrefabInstance: {fileID: 2055690133}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4419a54bb3e5bd64fb1ddc674d97b5c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2114977829 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 39893288632592145, guid: 2f4f5b8b1cfbb384ba5e81ccfbf91bdb, type: 3}

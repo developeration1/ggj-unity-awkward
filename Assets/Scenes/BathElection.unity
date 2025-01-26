@@ -213,6 +213,7 @@ MonoBehaviour:
   m_messageFail: {fileID: 1012184204}
   m_player: {fileID: 1891018450}
   m_timer: {fileID: 541919363}
+  sc: {fileID: 0}
 --- !u!1001 &541919359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1335,6 +1336,10 @@ PrefabInstance:
     - target: {fileID: 4488681819068661620, guid: 2f4f5b8b1cfbb384ba5e81ccfbf91bdb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8284297648729255239, guid: 2f4f5b8b1cfbb384ba5e81ccfbf91bdb, type: 3}
+      propertyPath: secondsToWait
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8474730138212878179, guid: 2f4f5b8b1cfbb384ba5e81ccfbf91bdb, type: 3}
       propertyPath: m_Name
