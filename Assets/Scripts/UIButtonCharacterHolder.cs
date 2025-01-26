@@ -14,12 +14,17 @@ public class UIButtonCharacterHolder : CharacterHolder
     [SerializeField] private Image profileCharacterView;
 
     private UISelectableColorAnimator animator;
+    private UIButton uiButton;
     public bool nextPlayer = false;
+    
+    public CharacterUnlockManager characterUnlockManager;
+
 
     public void Start()
     {
         animator = GetComponent<UISelectableColorAnimator>();
         animator.highlightedAnimation.customStartValue = ColorManager.Instance.Palette.Player1;
+        uiButton = GetComponent<UIButton>();
         textViewP1.color = ColorManager.Instance.Palette.Player1;
         fullCharacterViewP1.color = ColorManager.Instance.Palette.Player1;
         if (textViewP2 && fullCharacterViewP2)
@@ -28,6 +33,16 @@ public class UIButtonCharacterHolder : CharacterHolder
             fullCharacterViewP2.color = ColorManager.Instance.Palette.Player2;
         }
         profileCharacterView.sprite = characterInfo.Profile;
+
+        if (!IsCharacterUnlocked())
+        {
+            uiButton.interactable = true;
+        }
+    }
+
+    private bool IsCharacterUnlocked()
+    {
+        return characterUnlockManager.IsCharacterUnlocked(characterInfo.CharacterName);
     }
 
     public void Select()
