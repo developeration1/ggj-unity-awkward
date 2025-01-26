@@ -58,13 +58,15 @@ public class CharacterUnlockManager : MonoBehaviour
         return lockedCharacters.Find(x => x.characterProfile.CharacterName == characterName) != null;
     }
 
-    public void UnlockCharacter()
+    public Character UnlockCharacter()
     {
-        if (lockedCharacters.Count == 0) return;
+        if (lockedCharacters.Count == 0) return null;
 
         int randomIndex = Random.Range(0, lockedCharacters.Count);
         Character randomCharacter = lockedCharacters[randomIndex];
 
         SaveUnlockedCharacter(randomCharacter.characterProfile.CharacterName);
+
+        return randomCharacter;
     }
 }
