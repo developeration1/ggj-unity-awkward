@@ -8,27 +8,40 @@ public class DoorScript : MonoBehaviour
     private Image m_Image;
     [SerializeField]
     private Sprite[] m_SpriteArray;
+
     private int m_IndexSprite = 0;
     private bool m_flagBottonPress = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         m_Image.sprite = m_SpriteArray[m_IndexSprite];
-        PlayerInputManager.instance.playerJoinedEvent.AddListener(playerInput =>
-        {
-            InputActionMap playerMap = playerInput.actions.FindActionMap("Player");
-            playerMap.FindAction("BasicAction").performed += this.openHandShake;
-            playerMap.FindAction("BasicAction").canceled += this.changeFlag;
-        });
+        
     }
 
-    private void openHandShake(InputAction.CallbackContext ctx)
+    public void DoorEvent(InputAction.CallbackContext ctx)
     {
+        print("Evento");
+        print(ctx.ReadValue<float>());
+        float joystickValue = ctx.ReadValue<float>();
         if (!m_flagBottonPress)
         {
-            m_flagBottonPress = true;
-            openDoor();
+            if(joystickValue < 0)
+            {
+                m_flagBottonPress = true;
+                openDoor();
+            }
+            else
+            {
+
+            }
+            
         }
+        //if (!m_flagBottonPress)
+        //{
+        //    m_flagBottonPress = true;
+        //    openDoor();
+        //}
     }
 
     private void changeFlag(InputAction.CallbackContext ctx)
@@ -36,7 +49,7 @@ public class DoorScript : MonoBehaviour
         m_flagBottonPress = false;
     }
 
-    private void openDoor()
+    public void openDoor()
     {
         m_IndexSprite = (m_IndexSprite == 0) ? 1 : 0;
         m_Image.sprite = m_SpriteArray[m_IndexSprite];

@@ -43,6 +43,11 @@ public class Timer : MonoBehaviour
         }
     }
 
+     public bool is_endAnimation()
+    {
+        return m_animationEnd;
+    }
+
     IEnumerator Func_PlayAnimUI()
     {
         m_animationStart = true;
