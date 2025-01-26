@@ -24,5 +24,8 @@ public class GameManager : Singleton<GameManager>
         players.Clear();
     }
 
-    
+    public PlayerInput GetPlayerInput(int index)
+    {
+        return players[index];
+    }
 }

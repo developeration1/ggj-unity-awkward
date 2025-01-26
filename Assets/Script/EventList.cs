@@ -16,6 +16,9 @@ public class EventList : MonoBehaviour
     private MMF_Player m_player;
     [SerializeField]
     private Timer m_timer;
+
+    [SerializeField] private SceneChanger sc;
+    
     private bool m_flagBottonPress = false;
     private bool m_endMessageFail = false;
 
@@ -61,6 +64,7 @@ public class EventList : MonoBehaviour
     private void niceEvent()
     {
         m_message.SetActive(true);
+        sc.ChangeScene();
         m_player.PlayFeedbacks();
     }
 
@@ -76,6 +80,7 @@ public class EventList : MonoBehaviour
                     m_messageFail.SetActive(true);
                     m_player.PlayFeedbacks();
                     m_endMessageFail = true;
+                    sc.ChangeScene();
                 }
             }
         }

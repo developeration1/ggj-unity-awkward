@@ -6,8 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainGame.unity
+    guid: 5f5a2c8b52e7ef548950f3dc45022556
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/BathElection.unity
+    guid: e2f62eb3c654bff4fbabd76d3b50f4fe
+  - enabled: 1
+    path: Assets/Scenes/Feria.unity
+    guid: 3c7db32365fea451a9cad96e29b1175e
+  - enabled: 1
+    path: Assets/Scenes/HandShake.unity
+    guid: e74f1b636eae1bd4c8cbfe7bc3970b8b
+  - enabled: 1
+    path: Assets/Scenes/MismoLado.unity
+    guid: 6653508b89c394e0d8994bb4af17df73
+  - enabled: 1
+    path: Assets/Scenes/ScenaTimer.unity
+    guid: 69ccab7978675ea4796c4290a7407ebf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

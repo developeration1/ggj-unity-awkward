@@ -16,6 +16,8 @@ public class SaludoONo : MonoBehaviour
     [SerializeField]
     private MMF_Player m_player;
 
+    [SerializeField] private SceneChanger sc;
+
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -55,6 +57,7 @@ public class SaludoONo : MonoBehaviour
         }
 
         StartCoroutine(ResetBool());
+        sc.ChangeScene();
     }
 
     private IEnumerator ResetBool()

@@ -13,6 +13,8 @@ public class FeriaHandScript : MonoBehaviour
     private MMF_Player m_player;
     [SerializeField]
     private FeriaMoneySpawner m_feriaSpawner;
+
+    [SerializeField] private SceneChanger sc;
     private bool m_endGame = false;
     void Awake()
     {
@@ -32,7 +34,7 @@ public class FeriaHandScript : MonoBehaviour
     private void takeChange(InputAction.CallbackContext ctx)
     {
         animator.SetBool("Pressed", true);
-        //VALIDAR SI HAY CAMBIO DE MÁS
+        //VALIDAR SI HAY CAMBIO DE Mï¿½S
         if (m_feriaSpawner.isMoreMoney())
         {
             failGame();
@@ -46,7 +48,7 @@ public class FeriaHandScript : MonoBehaviour
     public void ReturnChange()
     {
         animator.SetBool("Return", true);
-        //VALIDAR SI EL CAMBIO ESTÁ BIEN
+        //VALIDAR SI EL CAMBIO ESTï¿½ BIEN
         if (m_feriaSpawner.isMoreMoney())
         {
             winGame();
@@ -64,6 +66,7 @@ public class FeriaHandScript : MonoBehaviour
             m_messageFail.SetActive(true);
             m_player.PlayFeedbacks();
             m_endGame = true;
+            sc.ChangeScene();
         }
     }
     private void winGame()
@@ -73,6 +76,7 @@ public class FeriaHandScript : MonoBehaviour
             m_message.SetActive(true);
             m_player.PlayFeedbacks();
             m_endGame = true;
+            sc.ChangeScene();
         }
     }
 }
