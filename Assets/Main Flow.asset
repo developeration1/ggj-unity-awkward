@@ -48,7 +48,12 @@ MonoBehaviour:
   Passthrough: 0
   ClearGraphHistory: 0
   Position: {x: 898, y: -33}
-  OnEnterShowViews: []
+  OnEnterShowViews:
+  - Id:
+      Category: Menu
+      Name: OnePlayerCharacterSelect
+      Custom: 0
+    Mode: 0
   OnEnterHideViews: []
   OnExitShowViews: []
   OnExitHideViews: []

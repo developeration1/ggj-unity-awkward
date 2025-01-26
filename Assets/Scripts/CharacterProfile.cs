@@ -1,13 +1,15 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "PlayerProfile", menuName = "Scriptable Objects/PlayerProfile")]
+[CreateAssetMenu(fileName = "CharacterProfile", menuName = "Scriptable Objects/CharacterProfile")]
 public class CharacterProfile : ScriptableObject
 {
+    [SerializeField] private string characterName;
     [SerializeField] private Sprite profile;
     [SerializeField] private Sprite full;
     [SerializeField] private Sprite front;
     [SerializeField] private Sprite back;
 
+    public string CharacterName => characterName;
     public Sprite Profile => profile;
     public Sprite Full => full;
     public Sprite Front => front;

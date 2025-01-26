@@ -18,5 +18,7 @@ MonoBehaviour:
       Name: 1Players
     - Category: Menu
       Name: 2Players
+    - Category: Menu
+      Name: SelectCharacter
     - Category: None
       Name: None
