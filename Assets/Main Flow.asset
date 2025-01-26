@@ -23,8 +23,7 @@ MonoBehaviour:
     Direction: 0
     Capacity: 1
     Connections:
-    - d3138902-0ce2-4a1c-b4e4-91974bfb9666
-    - 79185b53-c0d0-4bdf-bc4f-6cefca272908
+    - e9b9ce05-b030-48a6-a004-d2f6b8b7cf4e
     Value: '{"CanGoBack":false}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -48,8 +47,68 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 0
   ClearGraphHistory: 0
-  Position: {x: 695, y: -80}
+  Position: {x: 898, y: -33}
   OnEnterShowViews: []
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews: []
+  OnEnterHideAllViews: 1
+  OnExitHideAllViews: 0
+--- !u!114 &-3948792743576272915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: 6b2dddc4-e421-4744-979d-c4d9e42d1a9b
+  NodeId: a5327937-e1b2-4950-bb9b-bddf86c9094f
+  NodeType: 0
+  NodeName: 1 Player Sync
+  NodeDescription: 
+  InputPorts:
+  - NodeId: a5327937-e1b2-4950-bb9b-bddf86c9094f
+    PortId: 7883cd3f-0b2a-4a71-a8b6-4365d6da825d
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - d3138902-0ce2-4a1c-b4e4-91974bfb9666
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: a5327937-e1b2-4950-bb9b-bddf86c9094f
+    PortId: e9b9ce05-b030-48a6-a004-d2f6b8b7cf4e
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 3e9d1a47-ef9d-4d5c-b358-bc67a7955d11
+    Value: '{"Trigger":1,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"Management","Name":"GameStart","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":true,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"None","Name":"None","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 616, y: -34}
+  OnEnterShowViews:
+  - Id:
+      Category: Menu
+      Name: OnePlayerSync
+      Custom: 0
+    Mode: 0
   OnEnterHideViews: []
   OnExitShowViews: []
   OnExitHideViews: []
@@ -105,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02761efe598a45c98fa1baf4d446c6a7, type: 3}
   m_Name: Main Flow
   m_EditorClassIdentifier: 
-  EditorPosition: {x: -268, y: 185, z: 0}
+  EditorPosition: {x: -276, y: 164, z: 0}
   EditorScale: {x: 1, y: 1, z: 1}
   Id: 6b2dddc4-e421-4744-979d-c4d9e42d1a9b
   GraphName: Flow Graph
@@ -135,6 +194,7 @@ MonoBehaviour:
   - {fileID: -4680750771887026382}
   - {fileID: 1450040157304405410}
   - {fileID: 6295867458690293956}
+  - {fileID: -3948792743576272915}
   RootNode: {fileID: -1038438253671634569}
   ActiveNode: {fileID: 0}
 --- !u!114 &1450040157304405410
@@ -171,8 +231,7 @@ MonoBehaviour:
     PortId: 79185b53-c0d0-4bdf-bc4f-6cefca272908
     Direction: 1
     Capacity: 0
-    Connections:
-    - 3e9d1a47-ef9d-4d5c-b358-bc67a7955d11
+    Connections: []
     Value: '{"Trigger":0,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"None","Name":"None","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -185,11 +244,11 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 0
   ClearGraphHistory: 0
-  Position: {x: 508, y: 44}
+  Position: {x: 614, y: 146.00002}
   OnEnterShowViews:
   - Id:
       Category: Menu
-      Name: 2PlayerSync
+      Name: TwoPlayerSync
       Custom: 0
     Mode: 0
   OnEnterHideViews: []
@@ -232,7 +291,7 @@ MonoBehaviour:
     Direction: 1
     Capacity: 0
     Connections:
-    - 3e9d1a47-ef9d-4d5c-b358-bc67a7955d11
+    - 7883cd3f-0b2a-4a71-a8b6-4365d6da825d
     Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Menu","Name":"1Players","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
