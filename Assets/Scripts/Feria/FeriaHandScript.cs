@@ -24,4 +24,9 @@ public class FeriaHandScript : MonoBehaviour
     {
         animator.SetBool("Pressed", true);
     }
+
+    public void ReturnChange()
+    {
+        animator.SetBool("Return", true);
+    }
 }
