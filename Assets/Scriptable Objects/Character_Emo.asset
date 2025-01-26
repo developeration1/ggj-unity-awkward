@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d045e0aa6612a458db015f427fbe16, type: 3}
   m_Name: Character_Emo
   m_EditorClassIdentifier: 
+  characterName: Emo
   profile: {fileID: -25347623, guid: 5129d739e2ccc3b41a9692976f6c7901, type: 3}
   full: {fileID: 5461713980877155349, guid: 5129d739e2ccc3b41a9692976f6c7901, type: 3}
   front: {fileID: 0}
